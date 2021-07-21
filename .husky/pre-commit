@@ -1,5 +1,6 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
-
-
-echo "Hello World !"
+# 检查代码样式问题
+# npx stylelint "src/**/*.{css,less,scss,vue}" --fix;
+# 检查代码格式问题
+# npm run lint 
