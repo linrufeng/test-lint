@@ -38,7 +38,11 @@
     "not dead"
   ],
   "lint-staged": {
-    "*.{ts,tsx,js,vue}": ["eslint --fix"],
-    "*.{vue,css,less}": ["stylelint --fix"]
+    "*.{ts,tsx,js,vue}": [
+      "eslint --fix"
+    ],
+    "*.{vue,css,less}": [
+      "stylelint --fix"
+    ]
   }
 }
