@@ -37,8 +37,15 @@
     "last 2 versions",
     "not dead"
   ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
-    "src/**/*.{css,less,scss,vue}": "stylelint --fix",
-    "src/**/*.{js,vue}": "eslint --fix"
+    "*.{js,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
