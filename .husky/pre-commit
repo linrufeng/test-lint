@@ -2,3 +2,4 @@
 . "$(dirname "$0")/_/husky.sh"
 npx  stylelint "src/**/*.{vue,css,less,scss}" --fix
 npx eslint  "src/**/*.{ts,tsx,js,vue}"  --fix
+git add .
