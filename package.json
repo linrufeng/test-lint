@@ -38,12 +38,12 @@
     "not dead"
   ],
   "lint-staged": {
-    "src/**/*.{css,less,scss,vue}": [
+    "src/**/*.{css,less,scss,vue}": 
       "stylelint --fix"
-    ],
-    "src/**/*.{js,vue}": [
+    ,
+    "src/**/*.{js,vue}": 
       "eslint --fix"
-    ]
+    
   },
   "husky": {
     "hooks": {
