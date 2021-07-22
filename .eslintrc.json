@@ -4,7 +4,8 @@
   },
   "extends": [
     "plugin:vue/essential", 
-    "standard"   
+    "standard",
+    "./vue.js"
   ],  
   "plugins": [
       "html",

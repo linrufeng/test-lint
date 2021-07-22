@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     1111111
-    <img alt="Vue logo" src="./assets/logo.png" />
+    <img alt="Vue logo" src="./assets/logo.png">
   </div>
 </template>
 <script>
