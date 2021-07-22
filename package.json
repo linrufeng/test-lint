@@ -38,16 +38,7 @@
     "not dead"
   ],
   "lint-staged": {
-    "src/**/*.{css,less,scss,vue}": 
-      "stylelint --fix"
-    ,
-    "src/**/*.{js,vue}": 
-      "eslint --fix"
-    
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo \"git commit trigger husky pre-commit hook\" "
-    }
+    "src/**/*.{css,less,scss,vue}": "stylelint --fix",
+    "src/**/*.{js,vue}": "eslint --fix"
   }
 }
